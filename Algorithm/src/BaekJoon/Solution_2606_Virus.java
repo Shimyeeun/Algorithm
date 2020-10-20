@@ -15,7 +15,6 @@ public class Solution_2606_Virus {
 					cnt++;
 					dfs(j,arr);
 				}
-			
 			}
 		}
 		
@@ -42,7 +41,7 @@ public class Solution_2606_Virus {
 		
 		dfs(0,network);
 		System.out.println(cnt);
-
+		//test
 	}
 
 }
