@@ -44,6 +44,7 @@ public class Solution_1012_OrganicCabbage {
 			}
 			
 			System.out.println(worm);
+			
 		}
 
 	}
