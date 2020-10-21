@@ -70,7 +70,7 @@ public class Solution_10026_ColorWeakness {
 	      
     
 	      System.out.println(normal+" "+abnormal);
-		
+		 
 	}
 }
 
