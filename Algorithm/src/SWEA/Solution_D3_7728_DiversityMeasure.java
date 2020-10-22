@@ -10,7 +10,6 @@ public class Solution_D3_7728_DiversityMeasure {
 		
 		for(int i=1;i<=T;i++) {
 			String s=Integer.toString(Integer.parseInt(br.readLine()));
-			System.out.println(s);
 			HashSet<Character> set=new HashSet<>();  
 			for(int j=0;j<s.length();j++) {
 				set.add(s.charAt(j));
