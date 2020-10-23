@@ -29,12 +29,7 @@ public class Solution_2468_SafetyZone {
 			}
 		}
 		
-
-		
 		for(int i=0;i<=100;i++) {
-			if(i==0) {
-				cnt=1;
-			}
 			
 			cnt=0;
 			zone=new int[N][N];
@@ -44,9 +39,7 @@ public class Solution_2468_SafetyZone {
 						zone[j][k]=1;
 					}
 				}
-			}
-			
-			
+			}	
 			
 			for(int j=0;j<N;j++) {
 				for(int k=0;k<N;k++) {
