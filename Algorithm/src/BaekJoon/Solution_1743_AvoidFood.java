@@ -20,7 +20,6 @@ public class Solution_1743_AvoidFood {
 			}
 		}
 		
-		
 	}
 
 	public static void main(String[] args) throws Exception {
@@ -36,9 +35,7 @@ public class Solution_1743_AvoidFood {
 			int a=Integer.parseInt(st.nextToken());
 			int b=Integer.parseInt(st.nextToken());
 			arr[a-1][b-1]=1;
-		}
-		
-	
+		}		
 	
 		int max=0;
 		for(int i=0;i<n;i++) {
