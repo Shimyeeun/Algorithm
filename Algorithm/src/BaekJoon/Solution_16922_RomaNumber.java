@@ -13,6 +13,7 @@ public class Solution_16922_RomaNumber {
 			}
 			set.add(sum);
 			return;
+			
 		}
 		for(int i=start;i<4;i++) {
 			a[count]=d[i];
