@@ -1,7 +1,7 @@
 package BaekJoon;
 import java.util.*;
 import java.io.*;
-public class Solution_9012_°ýÈ£ {
+public class Solution_9012_ê´„í˜¸ {
 
 	public static void main(String[] args) throws Exception {
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));

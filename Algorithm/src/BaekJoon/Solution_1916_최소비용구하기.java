@@ -17,7 +17,7 @@ import java.io.*;
 //	}
 //}
 
-public class Solution_1916_�ּҺ�뱸�ϱ� {
+public class Solution_1916_최소비용구하기{
 	
 	public static void main(String[] args) throws Exception {
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));

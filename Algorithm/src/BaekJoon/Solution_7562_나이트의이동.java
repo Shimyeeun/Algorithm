@@ -1,7 +1,7 @@
 package BaekJoon;
 import java.util.*;
 import java.io.*;
-public class Solution_7562_³ªÀÌÆ®ÀÇÀÌµ¿ {
+public class Solution_7562_ë‚˜ì´íŠ¸ì˜ì´ë™ {
 	public static int n,starti,startj,endi,endj;
 	public static int[][] arr,v;
 	public static int[] di= {-2,-2,-1,1,2,2,1,-1}, dj= {-1,1,2,2,1,-1,-2,-2};

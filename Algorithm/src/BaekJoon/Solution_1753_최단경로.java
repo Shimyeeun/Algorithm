@@ -17,7 +17,7 @@ class Edge implements Comparable<Edge>{
 	}
 	
 }
-public class Solution_1753_ÃÖ´Ü°æ·Î {
+public class Solution_1753_ìµœë‹¨ê²½ë¡œ {
 	public static int INF=Integer.MAX_VALUE,v,e,k;
 	public static int[] dist;
 	public static boolean[] visit;
@@ -30,7 +30,7 @@ public class Solution_1753_ÃÖ´Ü°æ·Î {
 		e=Integer.parseInt(st.nextToken());
 		k=Integer.parseInt(br.readLine());
 		
-		dist=new int[v+1];//ÃÖ´Ü°Å¸® ³ÖÀ» ¹è¿­
+		dist=new int[v+1];//ï¿½Ö´Ü°Å¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½è¿­
 		
 		ArrayList<Edge>[] list=(ArrayList<Edge>[]) new ArrayList[v+1];
 		for(int i=1;i<=v;i++) {
@@ -50,7 +50,7 @@ public class Solution_1753_ÃÖ´Ü°æ·Î {
 			
 		}
 		
-		PriorityQueue<Edge> pq=new PriorityQueue<Edge>();//ÃÖ¼Ò°ªÀ» °¡Á®¿À±â À§ÇÑ ¿ì¼±¼øÀ§ Å¥
+		PriorityQueue<Edge> pq=new PriorityQueue<Edge>();//ï¿½Ö¼Ò°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ì¼±ï¿½ï¿½ï¿½ï¿½ Å¥
 		pq.offer(new Edge(k,0));
 		
 		while(!pq.isEmpty()) {
