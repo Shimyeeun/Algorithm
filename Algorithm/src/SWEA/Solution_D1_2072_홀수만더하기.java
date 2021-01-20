@@ -21,6 +21,7 @@ public class Solution_D1_2072_홀수만더하기 {
 			}
 			
 			System.out.println("#"+t+" "+sum);
+			
 		}
 		
 		
