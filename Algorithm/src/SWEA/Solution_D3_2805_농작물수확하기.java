@@ -1,5 +1,4 @@
 package SWEA;
-import java.util.*;
 import java.io.*;
 
 public class Solution_D3_2805_농작물수확하기 {
