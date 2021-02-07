@@ -2,7 +2,7 @@ package BaekJoon;
 import java.util.*;
 import java.io.*;
 
-public class Main_15469_NAndM1 {
+public class Main_15649_NAndM1 {
 	public static int n,m,d[],a[];
 	public static boolean[] v;
 	public static void permcomb(int start,int count) {
