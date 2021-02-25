@@ -1,4 +1,5 @@
 package BaekJoon;
+
 import java.util.*;
 import java.io.*;
 
@@ -8,7 +9,7 @@ public class Main_2304_창고다각형 {
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		
 		int N=Integer.parseInt(br.readLine());
-		int[] arr=new int[1001];
+		int[] arr=new int[1002];
 		int max=0,lastL=0,maxidx=0,cnt=0,maxcnt=0;
 		for(int i=0;i<N;i++) {
 			StringTokenizer st=new StringTokenizer(br.readLine());
@@ -22,7 +23,7 @@ public class Main_2304_창고다각형 {
 			}
 		}
 		
-		for(int i=0;i<=1000;i++) {
+		for(int i=0;i<=1002;i++) {
 			if(arr[i]!=0) {
 				cnt++;
 			}
@@ -50,7 +51,7 @@ public class Main_2304_창고다각형 {
 		
 		currL=0;
 		currH=0;
-		for(int i=lastL;i>=maxidx;i--) {
+		for(int i=lastL+1;i>=maxidx;i--) {
 			if(arr[i]>=currH) {
 				if(arr[i]!=0&&arr[i]==currH) {
 					maxcnt++;
@@ -63,7 +64,7 @@ public class Main_2304_창고다각형 {
 		}
 		
 		sum+=max;
-		if(maxcnt==N+1) {
+		if(maxcnt==N) {
 			sum-=max;
 		}
 		System.out.println(sum);
