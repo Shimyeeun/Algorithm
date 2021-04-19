@@ -1,3 +1,5 @@
+package BaekJoon;
+
 import java.util.*;
 import java.io.*;
 public class Main_1600_말이되고픈원숭이 {
